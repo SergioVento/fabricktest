@@ -639,7 +639,7 @@ form input[type="submit"]{
 .o1{
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 400ms ease-out,transform 600ms ease-out;
+    transition: opacity 300ms ease-out,transform 400ms ease-out;
 }
 .o0{
     transform: translateY(60px);
