@@ -1,4 +1,5 @@
       $( document ).ready(function() {
+        $('.preload').css("opacity", "0");
         var titolo = document.getElementById("titolo");
         var titolo1 = document.getElementById("titolo1");
               TweenLite.fromTo(titolo, .24, {y:70}, {y:0}, Power4.easeOut).delay(0.7);
